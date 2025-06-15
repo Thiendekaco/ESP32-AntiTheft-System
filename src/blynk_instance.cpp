@@ -10,3 +10,4 @@
 // keep them local to this translation unit.
 static WiFiClient blynkWiFiClient;
 static BlynkArduinoClient blynkTransport(blynkWiFiClient);
+BlynkWifi Blynk(blynkTransport);

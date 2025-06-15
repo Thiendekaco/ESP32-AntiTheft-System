@@ -4,9 +4,10 @@
 
 // Prevent the Blynk header from declaring its own global instance so we
 // can provide one manually in a single .cpp file.
-  #ifndef BLYNK_NO_GLOBAL
-  #define BLYNK_NO_GLOBAL
-  #endif
+#ifndef NO_GLOBAL_BLYNK
+#define NO_GLOBAL_BLYNK
+#endif
+
 
   #include <BlynkSimpleEsp32.h>
 
