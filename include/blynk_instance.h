@@ -12,7 +12,13 @@
 
 #include <BlynkSimpleEsp32.h>
 
-// Shared Blynk object used across the application
+#ifdef BLYNK_INSTANCE_IMPLEMENTATION
+// In the implementation file we let the library create the global object
+// by including the header without BLYNK_NO_GLOBAL defined.
+#else
+// Other modules only reference the instance defined elsewhere
 extern BlynkWifi Blynk;
+#endif
+
 
 #endif // BLYNK_INSTANCE_H
