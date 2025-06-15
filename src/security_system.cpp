@@ -1,5 +1,4 @@
-#define BLYNK_NO_GLOBAL
-#include <BlynkSimpleEsp32.h>
+#include "blynk_instance.h"
 #include "security_system.h"
 #include "gps_manager.h"
 #include "network_manager.h"

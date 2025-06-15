@@ -28,6 +28,7 @@ set(EXTRA_HDR_LIST
         include/network_manager.h
         include/security_system.h
         include/utils.h
+        include/blynk_instance.h
 )
 
 # Kết hợp danh sách nguồn
