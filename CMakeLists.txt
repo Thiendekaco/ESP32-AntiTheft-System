@@ -15,6 +15,7 @@ set(EXTRA_SRC_LIST
         src/network_manager.cpp
         src/security_system.cpp
         src/utils.cpp
+        src/blynk_instance.cpp
 )
 
 # Thêm các file header
