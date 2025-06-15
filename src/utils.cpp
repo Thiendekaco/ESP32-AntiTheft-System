@@ -1,3 +1,5 @@
+#define BLYNK_NO_GLOBAL
+#include <BlynkSimpleEsp32.h>
 #include "utils.h"
 #include "hardware_control.h"
 #include "config.h"

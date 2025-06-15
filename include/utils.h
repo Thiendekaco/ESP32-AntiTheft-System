@@ -2,7 +2,6 @@
 #define UTILS_H
 
 #include <Arduino.h>
-#include <BlynkSimpleEsp32.h>
 #include "global_state.h"
 #include "power_management.h"
 

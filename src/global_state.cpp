@@ -1,3 +1,5 @@
+#define BLYNK_PRINT Serial
+#include <BlynkSimpleEsp32.h>
 #include "global_state.h"
 
 // Khởi tạo các đối tượng toàn cục

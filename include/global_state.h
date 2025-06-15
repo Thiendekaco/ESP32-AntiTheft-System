@@ -5,7 +5,7 @@
 #include <Adafruit_MPU6050.h>
 #include <TinyGPS++.h>
 #include <RCSwitch.h>
-#include <BlynkSimpleEsp32.h>  // Include trực tiếp BlynkSimpleEsp32.h
+#include <Blynk/BlynkTimer.h>
 
 #include "config.h"
 
